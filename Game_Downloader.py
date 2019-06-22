@@ -305,7 +305,7 @@ def GameInstallation():
             print("\n[ERROR] : Invalid Input. Please Retry")
             GameInstallation()
     
-    except KeyboardInterrupt as error:
+    except KeyboardInterrupt:
         print("\n[ERROR] : Program Interrupted")
         print("Program Exiting...\n")
 
