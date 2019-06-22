@@ -29,7 +29,7 @@ def blank():
 def credits():
     print("""Before we start. 
         ##Credits##
-        Developers : Aadel (3adel)
+        Developers : Aadel
                      Keshan
         Created using : Python
         Release Date : Wednesday 19th June, 2019
@@ -69,7 +69,7 @@ def Game():
     print("*You are now in the Second Round! Keep going!")
     
     try:
-        UserInput = input("Enter a Number from 5 to 12 : ")
+        UserInput = input("Enter a Number: ")
         print(Name,":",UserInput)
         press()
 
@@ -89,7 +89,7 @@ def Game():
     print("*You are now in the Third Round! Good Job!")
     
     try:
-        UserInput = input("Enter a Number from 12 to 16 : ")
+        UserInput = input("Enter a Number: ")
         print(Name,":",UserInput)
         
         if UserInput in ("12", "13", "14", "15", "16"):
